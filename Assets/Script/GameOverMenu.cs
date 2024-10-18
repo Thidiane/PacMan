@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
@@ -7,9 +8,8 @@ using UnityEngine.UI;
 public class GameOverMenu : MonoBehaviour
 {
     public GameObject gameOverUI;
-    public Text finalScoreText;
     public static GameOverMenu instance;
-    public ScoreManager scoreManager;
+    public string level;
 
     private void Awake()
     {
@@ -21,7 +21,10 @@ public class GameOverMenu : MonoBehaviour
 
         instance = this;
     }
-
+    private void Start()
+    {
+        gameOverUI.SetActive(false);
+    }
     public void OnPlayerDeath()
     {
         gameOverUI.SetActive(true);
@@ -30,14 +33,20 @@ public class GameOverMenu : MonoBehaviour
 
     public void RetryButton()
     {
+        Time.timeScale = 1f;
+        Debug.Log("Refresh scene");
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         gameOverUI.SetActive(false);
-        Time.timeScale = 1f;
     }
 
     public void MainMenuButton()
     {
-        SceneManager.LoadScene("Menu");
+        SceneManager.LoadScene(level);
         Time.timeScale = 1f;
+    }
+
+    public void QuitGame()
+    {
+        Application.Quit();
     }
 }
