@@ -6,6 +6,7 @@ TagManager:
   tags:
   - ail
   - blood
+  - enemy
   layers:
   - Default
   - TransparentFX
