@@ -476,7 +476,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &514639583
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2205,10 +2205,6 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 671156746712004583, guid: 6c1924f403d117d4c98ec2526aa9ccc5, type: 3}
-      propertyPath: lifeIcons.Array.size
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 671156746712004583, guid: 6c1924f403d117d4c98ec2526aa9ccc5, type: 3}
       propertyPath: lifeIcons.Array.data[0]
       value: 
       objectReference: {fileID: 71632625}
@@ -2268,10 +2264,6 @@ PrefabInstance:
       propertyPath: myscore
       value: 
       objectReference: {fileID: 1098601769}
-    - target: {fileID: 6839595365060554048, guid: 6c1924f403d117d4c98ec2526aa9ccc5, type: 3}
-      propertyPath: addscore
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 6839595365060554048, guid: 6c1924f403d117d4c98ec2526aa9ccc5, type: 3}
       propertyPath: VictoryMenu
       value: 
