@@ -4,7 +4,9 @@ using UnityEngine;
 
 public class PlayerSuperMode : MonoBehaviour
 {
-
+    private SpriteRenderer spriteRenderer;
+    public Sprite newSprite;
+    public Sprite normalSprite;
     private float timer = 0f;
     private bool isTimerRunning = false;
     [SerializeField] float timerDuration;
@@ -19,6 +21,7 @@ public class PlayerSuperMode : MonoBehaviour
     
     private void Start()
     {
+        spriteRenderer = GetComponent<SpriteRenderer>();
         playerType = playerTypes.hunted;
     }
     private void FixedUpdate()
@@ -30,12 +33,14 @@ public class PlayerSuperMode : MonoBehaviour
         if (playerType == playerTypes.hunter && ancientPlayerType == playerTypes.hunted)
         {
             StartTimer();
+            spriteRenderer.sprite = newSprite;
         }
 
         if (timer > timerDuration)
         {
             StopTimer();
             playerType = playerTypes.hunted;
+            spriteRenderer.sprite = normalSprite;
         }
 
         ancientPlayerType = playerType;
