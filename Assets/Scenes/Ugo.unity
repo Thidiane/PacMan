@@ -1253,6 +1253,34 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4067891722067651778, guid: 1a35d68258a27e849b6e14f9aa9fad33, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: eb3129184ac0818428342a05f7141e8d, type: 3}
+    - target: {fileID: 4067891722067651778, guid: 1a35d68258a27e849b6e14f9aa9fad33, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4067891722067651778, guid: 1a35d68258a27e849b6e14f9aa9fad33, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4067891722067651778, guid: 1a35d68258a27e849b6e14f9aa9fad33, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4813123879558748918, guid: 1a35d68258a27e849b6e14f9aa9fad33, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.085
+      objectReference: {fileID: 0}
+    - target: {fileID: 4813123879558748918, guid: 1a35d68258a27e849b6e14f9aa9fad33, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.085
+      objectReference: {fileID: 0}
+    - target: {fileID: 4813123879558748918, guid: 1a35d68258a27e849b6e14f9aa9fad33, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.085
+      objectReference: {fileID: 0}
     - target: {fileID: 5195028611858544898, guid: 1a35d68258a27e849b6e14f9aa9fad33, type: 3}
       propertyPath: target
       value: 
@@ -1270,6 +1298,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 841050917537934913, guid: c2cccc6f03da08c42ba19d9eee4cd395, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: f8a9a373b5b9d0546be64852a5e05718, type: 3}
+    - target: {fileID: 841050917537934913, guid: c2cccc6f03da08c42ba19d9eee4cd395, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 841050917537934913, guid: c2cccc6f03da08c42ba19d9eee4cd395, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 841050917537934913, guid: c2cccc6f03da08c42ba19d9eee4cd395, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1838886540307350503, guid: c2cccc6f03da08c42ba19d9eee4cd395, type: 3}
       propertyPath: Player
       value: 
@@ -1318,6 +1362,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pinky
       objectReference: {fileID: 0}
+    - target: {fileID: 7284393597268979537, guid: c2cccc6f03da08c42ba19d9eee4cd395, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.085
+      objectReference: {fileID: 0}
+    - target: {fileID: 7284393597268979537, guid: c2cccc6f03da08c42ba19d9eee4cd395, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.085
+      objectReference: {fileID: 0}
+    - target: {fileID: 7284393597268979537, guid: c2cccc6f03da08c42ba19d9eee4cd395, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.085
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1339,6 +1395,34 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1188899185}
+    - target: {fileID: 2346202017883108609, guid: 0d9f1a0543a044b41999aa01315850b5, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: a215bc4aaa0c14c498c91444602ac05a, type: 3}
+    - target: {fileID: 2346202017883108609, guid: 0d9f1a0543a044b41999aa01315850b5, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2346202017883108609, guid: 0d9f1a0543a044b41999aa01315850b5, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2346202017883108609, guid: 0d9f1a0543a044b41999aa01315850b5, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2609463511974374168, guid: 0d9f1a0543a044b41999aa01315850b5, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.085
+      objectReference: {fileID: 0}
+    - target: {fileID: 2609463511974374168, guid: 0d9f1a0543a044b41999aa01315850b5, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.085
+      objectReference: {fileID: 0}
+    - target: {fileID: 2609463511974374168, guid: 0d9f1a0543a044b41999aa01315850b5, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.085
+      objectReference: {fileID: 0}
     - target: {fileID: 2812672730659460226, guid: 0d9f1a0543a044b41999aa01315850b5, type: 3}
       propertyPath: m_Name
       value: Inky
