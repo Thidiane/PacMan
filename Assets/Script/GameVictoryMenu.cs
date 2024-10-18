@@ -1,25 +1,23 @@
 using System.Collections;
 using System.Collections.Generic;
-using System.Security.Cryptography.X509Certificates;
 using UnityEngine;
-using UnityEngine.UI;
+using UnityEngine.SceneManagement;
+
 
 public class GameVictoryMenu : MonoBehaviour
 {
-
     public GameObject VictoryMenu;
 
 
-
-    void Start()
+    public void RetryButton()
     {
-
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        VictoryMenu.SetActive(false);
+        Time.timeScale = 1f;
     }
 
-    void Update()
+    public void QuitGame()
     {
-        
+        Application.Quit();
     }
-
-
 }
