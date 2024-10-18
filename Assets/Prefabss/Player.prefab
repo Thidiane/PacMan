@@ -182,7 +182,7 @@ MonoBehaviour:
   VictoryMenu: {fileID: 0}
   myscore: {fileID: 0}
   score: 0
-  addscore: 1
+  addscore: 149
 --- !u!114 &2289297336707025870
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -252,6 +252,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6bc11bc4f0240a4481b108fac58cc1c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  newSprite: {fileID: 0}
+  normalSprite: {fileID: 0}
   timerDuration: 5
   playerType: 1
   ancientPlayerType: 0

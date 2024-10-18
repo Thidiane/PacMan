@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 3766394634050155769}
   m_Layer: 0
   m_Name: Blinky
-  m_TagString: Untagged
+  m_TagString: enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -46,7 +46,7 @@ GameObject:
   - component: {fileID: 5195028611858544898}
   m_Layer: 0
   m_Name: Blinky
-  m_TagString: Untagged
+  m_TagString: enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -152,6 +152,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 142ceebbed917b448a6124c537c1c15a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 0}
+  target: {fileID: 5287948023231725523, guid: 6c1924f403d117d4c98ec2526aa9ccc5, type: 3}
   escapePoint: {fileID: 0}
-  playerMode: {fileID: 0}
+  playerMode: {fileID: 6706423863019823137, guid: 6c1924f403d117d4c98ec2526aa9ccc5, type: 3}

@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 6083696127589482229}
   m_Layer: 0
   m_Name: Inky
-  m_TagString: Untagged
+  m_TagString: enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -61,7 +61,7 @@ Transform:
   m_GameObject: {fileID: 5584193906836853100}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -77.8, y: -11, z: -0.95903265}
+  m_LocalPosition: {x: -77.8, y: -10, z: -0.95903265}
   m_LocalScale: {x: 0.25, y: 0.25, z: 0.25}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -155,7 +155,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 4433616827674591917}
   escapePoint: {fileID: 0}
-  playerMode: {fileID: 0}
+  playerMode: {fileID: 6706423863019823137, guid: 6c1924f403d117d4c98ec2526aa9ccc5, type: 3}
 --- !u!1 &5943842311606654062
 GameObject:
   m_ObjectHideFlags: 0
