@@ -154,6 +154,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 4433616827674591917}
+  escapePoint: {fileID: 0}
+  playerMode: {fileID: 0}
 --- !u!1 &5943842311606654062
 GameObject:
   m_ObjectHideFlags: 0
